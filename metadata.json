@@ -1,0 +1,12 @@
+{
+  "name": "FICERT - Vendedores",
+  "description": "Panel de control premium para vendedores de FICERT con captura de pedidos y consulta de rutas.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

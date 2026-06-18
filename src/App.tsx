@@ -1162,7 +1162,7 @@ export default function App() {
         <header className="fixed top-0 left-0 right-0 h-14 bg-[#140D08]/90 backdrop-blur border-b border-[#8B5A2B]/20 z-40 px-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img 
-              src="/src/assets/images/logo.png" 
+              src="/logo.png" 
               alt="FICERT Logo" 
               className="w-12 h-12 rounded-lg object-contain border border-[#FF7300] p-0.5" 
               referrerPolicy="no-referrer" 
@@ -1200,7 +1200,7 @@ export default function App() {
         {initialSplash && (
           <div className="fixed inset-0 z-[11000] flex items-center justify-center bg-[#140D08] overflow-hidden select-none">
             <img 
-              src="/src/assets/images/logoinicio.png" 
+              src="/logoinicio.png" 
               alt="FICERT Inicio" 
               className="absolute inset-0 w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -1213,7 +1213,7 @@ export default function App() {
           <div className="fixed inset-0 z-[10000] flex items-center justify-center overflow-hidden bg-[#140D08] select-none">
             {/* Background image covering the full screen */}
             <img 
-              src="/src/assets/images/logoinicio.png" 
+              src="/logoinicio.png" 
               alt="FICERT" 
               className="absolute inset-0 w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -1240,7 +1240,7 @@ export default function App() {
           <section className="w-full max-w-md bg-[#23170E]/80 border border-[#8B5A2B]/30 rounded-2xl p-6 sm:p-8 shadow-2xl space-y-6 animate-fade-in my-8">
             <div className="text-center space-y-2">
               <img 
-                src="/src/assets/images/logo.png" 
+                src="/logo.png" 
                 alt="FICERT Logo" 
                 className="w-36 sm:w-44 mx-auto rounded-xl object-contain border border-[#FF7300] p-1 mb-2" 
                 referrerPolicy="no-referrer" 
@@ -1311,7 +1311,7 @@ export default function App() {
           <section className="w-full max-w-lg bg-[#23170E]/80 border border-[#8B5A2B]/30 rounded-2xl p-6 sm:p-8 shadow-2xl space-y-6 animate-fade-in my-8">
             <div className="text-center space-y-1">
               <img 
-                src="/src/assets/images/logo.png" 
+                src="/logo.png" 
                 alt="FICERT Logo" 
                 className="w-36 sm:w-44 mx-auto rounded-xl object-contain border border-[#FF7300] p-1 mb-2" 
                 referrerPolicy="no-referrer" 

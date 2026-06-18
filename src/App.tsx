@@ -2409,8 +2409,8 @@ export default function App() {
                           <th className="px-4 py-3 text-center">PEDIDOS</th>
                           <th className="px-4 py-3 text-center">RECOGIDOS</th>
                           <th className="px-4 py-3 text-center">SE ENTREGARON</th>
+                          <th className="px-4 py-3 text-right">EN SOBRE</th>
                           <th className="px-4 py-3 text-right">DINERO ENTREGADO</th>
-                          <th className="px-4 py-3 text-right">QUEDA EN SOBRE</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-[#8B5A2B]/10">
@@ -2426,11 +2426,11 @@ export default function App() {
                                 <td className="px-4 py-3 text-center text-gray-300 font-bold">{item.R_PEDIDOS ?? 0}</td>
                                 <td className="px-4 py-3 text-center text-amber-500 font-bold">{item.R_LLEGARON ?? 0}</td>
                                 <td className="px-4 py-3 text-center text-emerald-400 font-bold">{item.R_ENTREGADOS ?? 0}</td>
-                                <td className="px-4 py-3 text-right text-emerald-400 font-bold">
-                                  ${dineroEntregado.toFixed(2)}
-                                </td>
                                 <td className="px-4 py-3 text-right text-gray-300 font-bold">
                                   ${dineroQuedaEnSobre.toFixed(2)}
+                                </td>
+                                <td className="px-4 py-3 text-right text-emerald-400 font-bold">
+                                  ${dineroEntregado.toFixed(2)}
                                 </td>
                               </tr>
                             );
